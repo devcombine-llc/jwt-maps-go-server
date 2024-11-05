@@ -18,7 +18,7 @@ Run the Docker Container
 
 ```bash
 docker run -p 8080:8080 my-go-server
-
+```
 The server will now be accessible at http://localhost:8080.
 
 Here is the formatted Markdown file:
