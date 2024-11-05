@@ -12,7 +12,7 @@ This is a Dockerized Go server with JWT-based authentication. Follow the instruc
 
 ```bash
 docker build -t jwt-maps-go-server .
-
+```
 
 Run the Docker Container
 
