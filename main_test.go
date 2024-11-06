@@ -260,8 +260,8 @@ func TestLocations(t *testing.T) {
 				if err != nil {
 					t.Errorf("could not parse locations response: %v", err)
 				}
-				if len(locations) != 4 {
-					t.Errorf("expected 4 locations, got %d", len(locations))
+				if len(locations) != 6 {
+					t.Errorf("expected 6 locations, got %d", len(locations))
 				}
 			}
 		})
@@ -480,8 +480,8 @@ func TestMainHandler(t *testing.T) {
 		t.Fatalf("could not parse locations response: %v", err)
 	}
 
-	if len(locations) != 4 {
-		t.Errorf("expected 4 locations, got %d", len(locations))
+	if len(locations) != 6 {
+		t.Errorf("expected 6 locations, got %d", len(locations))
 	}
 
 	oldRefreshPayload := map[string]string{

@@ -266,7 +266,15 @@ func Locations(w http.ResponseWriter, r *http.Request) {
 			FormattedAddress: "1111 California St, San Francisco, CA 94108, United States",
 		},
 		{
+			Latitude:         37.791507,
+			Longitude:        -122.413124,
+			FormattedAddress: "999 California St San Francisco, CA 94108",
+		},
+		{
 			PlaceID: "ChIJf17NcIyAhYARmPyoC3oxN-4",
+		},
+		{
+			PlaceID: "EjdDYWxpZm9ybmlhIFN0ICYgVGF5bG9yIFN0LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEwOCwgVVNBImYiZAoUChIJLR9yY42AhYARnc9XXJCCVX8SFAoSCS0fcmONgIWAEZ3PV1yQglV_GhQKEgmX5ReazICFgBHsUM0jqtIEcBoUChIJyaqQge2AhYARoBu9KRbcoTIiCg3ni4YWFW5WCbc",
 		},
 		{
 			Latitude:         37.7906552,
