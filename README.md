@@ -17,7 +17,7 @@ docker build -t jwt-maps-go-server .
 Run the Docker Container
 
 ```bash
-docker run -p 8080:8080 my-go-server
+docker run -p 8080:8080 jwt-maps-go-server
 ```
 The server will now be accessible at http://localhost:8080.
 
