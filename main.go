@@ -285,6 +285,9 @@ func Locations(w http.ResponseWriter, r *http.Request) {
 		{
 			PlaceID: "",
 		},
+		{
+			PlaceID: "InvalidID",
+		},
 	}
 
 	json.NewEncoder(w).Encode(locations)
